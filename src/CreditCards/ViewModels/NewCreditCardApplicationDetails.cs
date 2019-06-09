@@ -20,5 +20,9 @@ namespace CreditCards.ViewModels
         [Display(Name = "Gross Income")]
         [Required(ErrorMessage = "Please provide your gross income")]        
         public decimal? GrossAnnualIncome { get; set; }
+
+        [Display(Name = "Frequent Flyer Number")]
+        [Required(ErrorMessage = "Please provide your frequent flyer number")]
+        public string FrequentFlyerNumber { get; set; }
     }
 }
